@@ -1,4 +1,6 @@
-# Basic-Table-Tennis-Pong-Game
+[Download Window 64-bit Executable](https://github.com/parthbyt/Basic-Table-Tennis-Pong-Game/releases/download/v0.1.0/Basic.Table.Tennis.Pong.zip)
+
+# Basic Table Tennis Pong Game
 A simple table tennis pong game written in pygame.
 
 ## Requirements
