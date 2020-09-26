@@ -10,3 +10,4 @@ A simple table tennis pong game written in pygame.
  
 ## License 
 This project is under Unlicense License.
+Ball.png, Racket.png and Board.png by Parth Agrawal is licensed under CC0 1.0. To view a copy of this license, visit https://creativecommons.org/publicdomain/zero/1.0
