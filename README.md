@@ -1,5 +1,5 @@
 # Table-Tennis-Pong-Game
-A simple table tennis pong game written in pygame.
+A simple ping-pong game written in pygame.
 
 ## Requirements
 - Python 3 is required. Python 2 will not work.
