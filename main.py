@@ -72,7 +72,7 @@ class Enemy(pygame.sprite.Sprite):
 class Defender(pygame.sprite.Sprite):
     def __init__(self):
         super(Defender, self).__init__()
-        self.surf = pygame.Surface((5, 1000))
+        self.surf = pygame.Surface((5, 1000)) # lgtm [py/call/wrong-arguments]
         self.surf.fill((255, 0, 0))
         self.rect = self.surf.get_rect()
         self.rect.center = (0, 0)
