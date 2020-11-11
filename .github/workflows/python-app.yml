@@ -20,8 +20,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Set up Linux
       run: |
-        if [ "$RUNNER_OS" == 'Linux' ]; then
-          apt install libsdl2-2.0 libsdl2-dev
+        apt install libsdl2-2.0 libsdl2-dev
+      if: matrix.os == 'ubuntu-latest'
     - name: Set up Python 3
       uses: actions/setup-python@v2
       with:
