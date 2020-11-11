@@ -14,14 +14,10 @@ jobs:
     strategy:
       matrix:
         os: [macos-latest, windows-latest]
-        python-version: [3.5, 3.6, 3.7, 3.8]
+        python-version: [3.6, 3.7, 3.8]
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Linux
-      run: |
-        export SDL_VIDEODRIVER=dummy
-      if: matrix.os == 'ubuntu-latest'
     - name: Set up Python 3
       uses: actions/setup-python@v2
       with:
