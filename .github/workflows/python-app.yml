@@ -28,7 +28,7 @@ jobs:
         python -m pip install pygame
     - name: Test on Linux
       run : |
-        python -c "import os; os.environ['SDL_VIDEODRIVER'] = 'dummy'; exec(open("main.py").read())"
+        python -c "import os; os.environ['SDL_VIDEODRIVER'] = 'dummy'; exec(open('main.py').read())"
       if : matrix.os == 'ubuntu-latest'
     - name: Test on Windows
       run: |
